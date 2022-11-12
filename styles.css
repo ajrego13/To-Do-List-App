@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+form {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-input {
+    margin: 15px;
+}
+.todo-btn {
+    width: 20px;
+    height: 20px;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+}
+
+.delete-btn {
+    margin: 10px;
+    height: 10px;
+    width: 10px;
+}
+
+.complete-btn {
+    margin: 10px;
+    height: 10px;
+    width: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
